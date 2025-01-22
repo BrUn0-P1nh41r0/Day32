@@ -1,7 +1,16 @@
-# import pandas
+##################### Hard Starting Project ######################
+# 4. Send the letter generated in step 3 to that person's email address.
+# HINT: Gmail(smtp.gmail.com), Yahoo(smtp.mail.yahoo.com), Hotmail(smtp.live.com), Outlook(smtp-mail.outlook.com)
+import pandas
 import datetime as dt
 import random
 import smtplib
+
+MY_EMAIL = "testpython382@gmail.com"
+MY_PASSWORD = "esze crrh jcgx vvdt"
+
+today = dt.datetime.now()
+today_tuple = (today.month, today.day)
 
 birthdays = pandas.read_csv("./birthdays.csv")
 birthdays_dict = {(data_row.month, data_row.day):data_row for (index, data_row) in birthdays.iterrows()}
