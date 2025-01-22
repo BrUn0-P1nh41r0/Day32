@@ -3,7 +3,7 @@ import smtplib
 import datetime as dt
 
 my_email="testpython382@gmail.com"
-password="esze crrh jcgx vvdt"
+password=""
 
 now = dt.datetime.now()
 day_of_week = now.weekday()
