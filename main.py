@@ -1,3 +1,6 @@
+##################### Hard Starting Project ######################
+# 4. Send the letter generated in step 3 to that person's email address.
+# HINT: Gmail(smtp.gmail.com), Yahoo(smtp.mail.yahoo.com), Hotmail(smtp.live.com), Outlook(smtp-mail.outlook.com)
 import pandas
 import datetime as dt
 import random
